@@ -1,6 +1,6 @@
 # T.T.E — Tiny Teddy Entertainment
 
-A dependency-free photography and videography website built with HTML, CSS, vanilla JavaScript, and IndexedDB.
+A photography and videography website built with HTML, CSS, vanilla JavaScript, IndexedDB, and Three.js.
 
 ## Open in Visual Studio
 
@@ -12,11 +12,14 @@ In Visual Studio, choose **File → Open → Folder…** and select this `TTE-We
 - `admin.html` — a local dashboard for enquiries saved in the same browser
 - `css/styles.css` — the visual design and responsive layout
 - `js/db.js` — IndexedDB storage
-- `js/app.js` — navigation, gallery filtering, lightbox, and theme controls
+- `js/app.js` — navigation, gallery filtering, lightbox, theme controls, and page title
+- `js/camera.js` — scroll-driven 3D camera model, powered by Three.js from jsDelivr
 - `js/forms.js` — validation and enquiry handling
 - `js/dashboard.js` — local dashboard behavior
 
 Enquiries are saved only in the visitor’s browser. They are not sent to T.T.E and do not confirm a booking. Replace the clearly marked contact and social placeholders when those details are available.
+
+The decorative 3D camera loads Three.js from jsDelivr and needs an internet connection. The rest of the site remains usable if the 3D library is unavailable.
 
 ## Push to the provided GitHub repository
 
